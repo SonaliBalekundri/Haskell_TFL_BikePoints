@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Points Distribution</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="map" style="height: 100vh;"></div>
+    <script>
+        // Initialize the Map
+        const map = L.map('map').setView([51.52104687999999, -0.12692412], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        // Add Markers In Map
+L.marker([51.529163, -0.10997]).addTo(map).bindPopup('<strong>River Street , Clerkenwell</strong><br>Lat: 51.529163, Lon: -0.10997');
+L.marker([51.499606, -0.197574]).addTo(map).bindPopup('<strong>Phillimore Gardens, Kensington</strong><br>Lat: 51.499606, Lon: -0.197574');
+L.marker([51.521283, -8.4605e-2]).addTo(map).bindPopup('<strong>Christopher Street, Liverpool Street</strong><br>Lat: 51.521283, Lon: -8.4605e-2');
+L.marker([51.530059, -0.120973]).addTo(map).bindPopup('<strong>St. Chads Street, Kings Cross</strong><br>Lat: 51.530059, Lon: -0.120973');
+L.marker([51.49313, -0.156876]).addTo(map).bindPopup('<strong>Sedding Street, Sloane Square</strong><br>Lat: 51.49313, Lon: -0.156876');
+L.marker([51.518117, -0.144228]).addTo(map).bindPopup('<strong>Broadcasting House, Marylebone</strong><br>Lat: 51.518117, Lon: -0.144228');
+L.marker([51.5343, -0.168074]).addTo(map).bindPopup('<strong>Charlbert Street, St. Johns Wood</strong><br>Lat: 51.5343, Lon: -0.168074');
+L.marker([51.529857, -0.183486]).addTo(map).bindPopup('<strong>Maida Vale, Maida Vale</strong><br>Lat: 51.529857, Lon: -0.183486');
+L.marker([51.507385, -9.644e-2]).addTo(map).bindPopup('<strong>New Globe Walk, Bankside</strong><br>Lat: 51.507385, Lon: -9.644e-2');
+L.marker([51.505974, -9.2754e-2]).addTo(map).bindPopup('<strong>Park Street, Bankside</strong><br>Lat: 51.505974, Lon: -9.2754e-2');
+L.marker([51.523951, -0.122502]).addTo(map).bindPopup('<strong>Brunswick Square, Bloomsbury</strong><br>Lat: 51.523951, Lon: -0.122502');
+L.marker([51.52168, -0.130431]).addTo(map).bindPopup('<strong>Malet Street, Bloomsbury</strong><br>Lat: 51.52168, Lon: -0.130431');
+L.marker([51.519914, -0.136039]).addTo(map).bindPopup('<strong>Scala Street, Fitzrovia</strong><br>Lat: 51.519914, Lon: -0.136039');
+L.marker([51.529416, -0.123944]).addTo(map).bindPopup('<strong>Argyle Street, Kings Cross</strong><br>Lat: 51.529416, Lon: -0.123944');
+L.marker([51.517727, -0.127854]).addTo(map).bindPopup('<strong>Great Russell Street, Bloomsbury</strong><br>Lat: 51.517727, Lon: -0.127854');
+L.marker([51.526357, -0.125979]).addTo(map).bindPopup('<strong>Cartwright Gardens , Bloomsbury</strong><br>Lat: 51.526357, Lon: -0.125979');
+L.marker([51.521661, -0.109006]).addTo(map).bindPopup('<strong>Hatton Wall, Holborn</strong><br>Lat: 51.521661, Lon: -0.109006');
+L.marker([51.51477, -0.122219]).addTo(map).bindPopup('<strong>Drury Lane, Covent Garden</strong><br>Lat: 51.51477, Lon: -0.122219');
+L.marker([51.52505, -0.131161]).addTo(map).bindPopup('<strong>Taviton Street, Bloomsbury</strong><br>Lat: 51.52505, Lon: -0.131161');
+L.marker([51.527326, -0.136052]).addTo(map).bindPopup('<strong>Drummond Street , Euston</strong><br>Lat: 51.527326, Lon: -0.136052');
+L.marker([51.539834, -6.2806e-2]).addTo(map).bindPopup('<strong>Lansdowne Drive, Hackney Central</strong><br>Lat: 51.539834, Lon: -6.2806e-2');
+L.marker([51.522264, -0.114079]).addTo(map).bindPopup('<strong>Northington Street , Holborn</strong><br>Lat: 51.522264, Lon: -0.114079');
+L.marker([51.519435, -0.119123]).addTo(map).bindPopup('<strong>Red Lion Square, Holborn</strong><br>Lat: 51.519435, Lon: -0.119123');
+L.marker([51.51908, -0.124678]).addTo(map).bindPopup('<strong>British Museum, Bloomsbury</strong><br>Lat: 51.51908, Lon: -0.124678');
+L.marker([51.528833, -0.13225]).addTo(map).bindPopup('<strong>Doric Way , Somers Town</strong><br>Lat: 51.528833, Lon: -0.13225');
+
+    </script>
+</body>
+</html>
